@@ -10,6 +10,13 @@ body{
     background-color: #CBCBCB;
 }
 
+.body-app{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
 h1{
     color: #D8D8D8;
     font-weight: lighter;

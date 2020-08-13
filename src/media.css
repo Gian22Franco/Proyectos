@@ -502,7 +502,11 @@
 
 @media screen and (max-width:400px){
     
-
+    .body{
+        width: 100%;
+        max-width: 200vh;
+        background-color:393838 ;
+    }
     .nombre{
         padding: 0;
         transform: translate(10%,30%);
@@ -510,6 +514,9 @@
 
     .h1{
         padding: 0;
+        font-size: 1.5em;
+    }
+    .h3{
         font-size: 1em;
     }
     .toggle-button{
@@ -519,11 +526,18 @@
         z-index: 10;
     }
 
-    .home{
-        min-height: 60vh;
+    .row{
+        padding-top: 100px;
     }
-    
+    .home{
+        
+        min-height: 100vh;
+    }
+    .imagen{
+        width: 500%;
+    }
     .imagen-conjunto{
+       
         transform: translate(200%,-90%);
         padding-top: 0px;
     }
@@ -541,6 +555,7 @@
 
     }
     .mensaje{
+        margin-top: 10px;
         font-size: .5rem;
         font-weight: 600;
         letter-spacing: .1rem;

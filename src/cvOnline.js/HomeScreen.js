@@ -15,7 +15,7 @@ export const HomeScreen = () => {
         <>
 
 
-<section id='Home' className=''>
+<section id='Home' className='body-app'>
 
             <Nav/>
         
