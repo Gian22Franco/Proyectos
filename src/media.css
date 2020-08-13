@@ -504,8 +504,7 @@
     
     .body{
         width: 100%;
-        max-width: 200vh;
-        background-color:393838 ;
+        background-color:#393838 ;
     }
     .nombre{
         padding: 0;
@@ -530,7 +529,6 @@
         padding-top: 100px;
     }
     .home{
-        
         min-height: 100vh;
     }
     .imagen{
