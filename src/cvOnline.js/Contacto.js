@@ -15,16 +15,16 @@ export const Contacto = () => {
                         <Form>
                             <Row>
                                 <Col>
-                                <Form.Control placeholder="First name" />
+                                <Form.Control className='input' placeholder="First name" />
                                 </Col>
                                 <Col>
-                                <Form.Control placeholder="Last name" />
+                                <Form.Control  className='input' placeholder="Last name" />
                                 </Col>
                             </Row>
 
                             <Row>
                             <Col>
-                                <Form.Control as="textarea" className='mt-5' placeholder="Mensaje!" />
+                                <Form.Control as="textarea" className=' mensaje mt-5' placeholder="Mensaje!" />
                                 </Col>
                             </Row>
                             </Form>

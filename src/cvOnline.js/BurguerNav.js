@@ -4,7 +4,7 @@ export const BurguerNav = () => {
     return (
         <>
 
-            <nav className='navbar'>
+            {/* <nav className='navbar'>
 
                 <a href='#' className='toggle-button'>
                     <span className='bar'></span>
@@ -23,7 +23,7 @@ export const BurguerNav = () => {
 
                 </div>
 
-            </nav>
+            </nav> */}
 
 
 

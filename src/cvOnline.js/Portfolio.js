@@ -1,6 +1,6 @@
 import React from 'react'
-import images from '../images.js';
-import {CardDeck, Card} from 'react-bootstrap';
+//import images from '../images.js';
+//import {CardDeck, Card} from 'react-bootstrap';
 
 export const Portfolio = () => {
     return (
@@ -15,8 +15,8 @@ export const Portfolio = () => {
                 <div className='container-portfolio-images'>
                 <div className='card-container'>
 
-
-            <CardDeck>
+                
+            {/* <CardDeck>
                 <Card className='card'>
                     <Card.Img variant="top" src= {images.img14} alt='carilo'/>
                     <Card.Body>
@@ -39,11 +39,11 @@ export const Portfolio = () => {
                     </Card.Body>
                     <Card.Footer>
 
-                    <button className='btn btn-outline-primary'>Ver mas</button>
+                    <button className='btn btn-outline-primary'>Ver mas</button> */}
                     {/* <small className="text-muted">Ver mas</small> */}
-                    </Card.Footer>
-                </Card>
-                <Card>
+                    {/* </Card.Footer>
+                </Card> */}
+                {/* <Card>
                     <Card.Img variant="top" src={images.img16} alt='perros'/>
                     <Card.Body>
                     <Card.Title>Isla de perros</Card.Title>
@@ -56,7 +56,7 @@ export const Portfolio = () => {
                     </Card.Footer>
                 </Card>
                 </CardDeck>
-                                    
+                                     */}
                 </div>    
             </div>
 
