@@ -317,8 +317,6 @@
         font-size: 1.3em;
         font-weight: lighter;
      }
-
-
 }
 @media screen and (max-width:700px){
 
@@ -382,10 +380,6 @@
         font-size: 0.8em;
     }
 
-    .card-container{
-        min-height: 10vh;
-        width: 40%;
-    }
 
     .container-contacto{
         width: 60%;
